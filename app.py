@@ -199,7 +199,7 @@ with tab3:
                                        text_auto=True,
                                        title = f'Top {qtd_vendedores} vendedores (Receita)')
         
-        st.plotly_chart(fig_receita_vededores)
+        st.plotly_chart(fig_receita_vededores,use_container_width = True)
         
 
     with col2:
@@ -210,7 +210,7 @@ with tab3:
                                        text_auto=True,
                                        title = f'Top {qtd_vendedores} vendedores (Quantidade de vendas)')
         
-        st.plotly_chart(fig_vendas_vededores)
+        st.plotly_chart(fig_vendas_vededores,use_container_width = True)
 
        
 
